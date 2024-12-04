@@ -1,9 +1,7 @@
-import { Hello } from "./Hello";
-
+import App from "./App";
 import { createRoot } from "react-dom/client";
-const helloElement = <Hello />;
 
-const root = document.getElementById("root");
+const rootElement = document.getElementById("root");
+const root = createRoot(rootElement);
 
-const root2 = createRoot(root);
-root2.render(helloElement);
+root.render(<App />);

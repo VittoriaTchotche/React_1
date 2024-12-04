@@ -1,0 +1,17 @@
+#rooot {
+  margin: 0, auto;
+  border: 1px solid black;
+  box-shadow: 0 0 10px;
+  width: 50%;
+  padding: 10px;
+  border-radius: 10px;
+}
+#root h1 {
+  display: flex;
+  justify-content: center;
+}
+.chat-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
