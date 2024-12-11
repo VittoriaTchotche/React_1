@@ -1,6 +1,12 @@
+import Clock from "./Clock";
 import Counter from "./Counter";
 
 function App() {
-  return <Counter />;
+  return (
+    <div>
+      <Counter />
+      <Clock />
+    </div>
+  );
 }
 export default App;
