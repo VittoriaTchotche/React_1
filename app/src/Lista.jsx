@@ -8,7 +8,7 @@ function Lista() {
       <ul>
         {colori.map((colore, index) => (
           <li onClick={() => handleClkick(colore)} key={index}>
-            {colore}{" "}
+            {colore}
           </li>
         ))}
       </ul>
