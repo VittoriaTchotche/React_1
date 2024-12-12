@@ -19,8 +19,8 @@ function Counter() {
   return (
     <div>
       <CounterDisplay counter={counter} />
-      <button onClick={handleIncrementa}>Incrementa</button>
-      <button onClick={handleDecrementa}>Decrementa</button>
+      <button onClick={handleIncrementa}>Incrementa!</button>
+      <button onClick={handleDecrementa}>Decrementa!</button>
       <button onClick={handleReset}>Reset</button>
     </div>
   );
