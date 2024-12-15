@@ -1,5 +1,9 @@
 import Colors from "./Colors";
+import Counter from "./Counter";
+import CounterDisplay from "./CounterDisply";
+import Login from "./Login";
 import TodoList from "./Todolist";
+import Welcome from "./Welcome";
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
         ]}
       />
       <TodoList />
+      <Counter />
+      <Login />
+      <CounterDisplay />
+      <Welcome />
     </div>
   );
 }
