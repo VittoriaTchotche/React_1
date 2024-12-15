@@ -16,6 +16,7 @@ function App() {
       <Lista />
       <Change />
       <AlertClock />
+      <Hello />
     </div>
   );
 }
