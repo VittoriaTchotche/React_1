@@ -8,7 +8,7 @@ function Welcome({ name }) {
   }
   return (
     <div className="welcome">
-      <p>Wlcome,{name}</p>
+      <p>Welcome,{name}</p>
       <input value={name} onChange={handleOnchange} />
     </div>
   );
