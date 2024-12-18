@@ -9,12 +9,12 @@ export const useUserContext = () => {
 export const UserProvider = ({ children }) => {
   const [users, setUsers] = useState([]);
 
-  const addUser = () => {
-    setUsers((prevUsers) => [...prevUsers, user]);
+  const altro = () => {
+    setUsers((prevUsers) => [...prevUsers, users]);
   };
 
   return (
-    <UserContext.Provider value={{ users, addUser }}>
+    <UserContext.Provider value={{ users, altro }}>
       {children}
     </UserContext.Provider>
   );

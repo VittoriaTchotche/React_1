@@ -1,10 +1,12 @@
 import { useContext, useState } from "react";
 import { userContext } from "./UserContext";
+import GithubUser from "./GithubUser";
+
 function GithubUsers() {
   const { users } = useContext(userContext);
   const [userName, setUsername] = useState("");
   function handleClick() {
-    setUsername((e) => setUsername(e.target.value));
+    setUsername(e.target.value);
   }
 
   return (
