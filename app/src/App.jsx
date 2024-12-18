@@ -5,18 +5,21 @@ import Age from "./Age";
 import Lista from "./Lista";
 import Change from "./Change";
 import AlertClock from "./AlertClock";
+import { UserProvider } from "./UserContext";
 
 function App() {
   return (
     <div>
       <h1>Ciao!</h1>
-      <Hello />
-      <Welcome name="Paul" age={38} />
-      <Age age={38} />
-      <Lista />
-      <Change />
-      <AlertClock />
-      <Hello />
+      <UserProvider>
+        <Hello />
+        <Welcome name="Paul" age={38} />
+        <Age age={38} />
+        <Lista />
+        <Change />
+        <AlertClock />
+        <Hello />
+      </UserProvider>
     </div>
   );
 }
