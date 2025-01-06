@@ -3,6 +3,7 @@ import UseCounter from "./useCounter";
 import UseCurrentLocation from "./useCurrentLocation";
 import FilteredList from "/.FilteredList";
 import HookUseCounter from "./hookUseCounter";
+import ChatApp from "./ChatInterface";
 
 function App() {
   const { count, increment, decrement, reset } = HookUseCounter(0);
@@ -27,6 +28,7 @@ function App() {
       <h2>Filtered List</h2>
 
       <FilteredList list={list} />
+      <ChatApp />
     </div>
   );
 }
