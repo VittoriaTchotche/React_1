@@ -6,6 +6,7 @@ import Lista from "./Lista";
 import Change from "./Change";
 import AlertClock from "./AlertClock";
 import { UserProvider } from "./UserContext";
+import GithubUser from "./GithubUser";
 
 function App() {
   return (
@@ -19,6 +20,8 @@ function App() {
         <Change />
         <AlertClock />
         <Hello />
+        < GithubUser />
+        
       </UserProvider>
     </div>
   );
