@@ -4,6 +4,7 @@ import UseCurrentLocation from "./useCurrentLocation";
 import FilteredList from "/.FilteredList";
 import HookUseCounter from "./hookUseCounter";
 import ChatApp from "./ChatInterface";
+import Welcome from "./Welcome";
 
 function App() {
   const { count, increment, decrement, reset } = HookUseCounter(0);
@@ -29,6 +30,7 @@ function App() {
 
       <FilteredList list={list} />
       <ChatApp />
+      <Welcome />
     </div>
   );
 }
