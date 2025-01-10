@@ -2,7 +2,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import Welcome from "./Welcome";
 import Counter from "./Counter";
 import ShowGithubUser from "./ShowGithubUser";
-import UseGithubUser from "./useGit";
+import UseGithubUser from "./useGithubUser";
 
 function App() {
   return (
