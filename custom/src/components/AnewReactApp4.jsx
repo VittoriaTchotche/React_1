@@ -10,7 +10,7 @@ const fetchBotResponse = async (message) => {
   return data.response;
 };
 
-function ChatApp() {
+function ChatApp2() {
   const [messages, setMessages] = useState([
     { text: "Ciao!", sender: "received" },
     { text: "Come va?", sender: "sent" },
@@ -67,4 +67,4 @@ function ChatApp() {
   );
 }
 
-export default ChatApp;
+export default ChatApp2;
